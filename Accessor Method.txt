@@ -1,0 +1,38 @@
+Q7)
+Accessor Method:
+
+Definition: An accessor method, also known as a getter method, is a method used to retrieve the value of a private instance variable.
+Naming Convention: The naming convention for accessor methods is to use "get" followed by the name of the variable being accessed.
+Example:
+java
+Copy code
+public class MyClass {
+    private int myField;
+
+    // Accessor method for myField
+    public int getMyField() {
+        return myField;
+    }
+}
+
+
+------------------------------------------------------------------------------------------------
+Mutator Method:
+
+Definition: A mutator method, also known as a setter method, is a method used to modify the value of a private instance variable.
+Naming Convention: The naming convention for mutator methods is to use "set" followed by the name of the variable being modified. It's common to start the variable name with a capital letter.
+Example:
+java
+Copy code
+public class MyClass {
+    private int myField;
+
+    // Mutator method for myField
+    public void setMyField(int value) {
+        myField = value;
+    }
+}
+###################################################################################################
+
+Q8)
+Data field encapsulation in object-oriented programming provides controlled access to an object's internal state through accessor and mutator methods, enhancing security and maintainability. It promotes flexibility by allowing changes to the internal implementation without affecting external code, ensures data consistency through validation logic, and hides unnecessary details for a more organized codebase. Encapsulation facilitates enhanced testing by providing well-defined interaction points. Overall, it contributes to modularity, cleanliness, and the creation of robust, adaptable software systems.
